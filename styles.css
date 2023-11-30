@@ -1,0 +1,121 @@
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.cf:before, .cf:after{
+    content: "";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #292929;
+}
+
+main {
+  width: 25rem;
+  min-height: 32rem;
+  background-color: #fbea48;
+  margin: auto;
+  margin-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+form {
+  margin-top: 2.3rem;
+  width: 25rem;
+  min-height: 22.2rem;
+  background-color: white;
+  margin-left: 2.5rem;
+  padding: 1.8rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.entity {
+  font-size: 24px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  top: 4rem;
+  left: 12rem;
+  cursor: pointer;
+}
+
+img {
+  position: absolute;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+}
+
+.user label {
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+  color: #9c9f9f;
+  font-size: 10px;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1.7px solid #9c9f9f;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.fla {
+  display: flex;
+  gap: 7rem;
+}
+
+.flainput {
+  display: flex;
+}
+.last {
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1.7px solid #9c9f9f;
+}
+input.bio:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1.7px solid #9c9f9f;
+}
+
+input.bio {
+  border: none;
+}
